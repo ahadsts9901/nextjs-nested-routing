@@ -19,7 +19,7 @@ const Nav = () => {
         />
         {/* desktop */}
         <nav>
-          <Link href="/">
+          <Link href="/fruits">
             <li>
               <Apple /> Fruits
             </li>
@@ -57,7 +57,7 @@ const Nav = () => {
             setShowNav("none");
           }}
         />
-        <Link href="/">
+        <Link href="/fruits">
           <li>
             <Apple /> Fruits
           </li>

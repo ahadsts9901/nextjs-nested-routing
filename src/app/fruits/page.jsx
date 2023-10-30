@@ -1,6 +1,6 @@
 import React from "react";
-import Nav from "./components/nav";
-import { Cart4 } from "react-bootstrap-icons";
+import Nav from "../components/nav";
+import { Apple } from "react-bootstrap-icons";
 
 const home = () => {
   return (
@@ -8,8 +8,8 @@ const home = () => {
       <Nav />
       <div className="mid">
         <h1 className="text-[1.8em]">Next JS Nested Routing</h1>
-        <Cart4 className="icon" />
-        <h1 className="text-[1.5em]">NEXT Store</h1>
+        <Apple className="icon" />
+        <h1 className="text-[1.5em]">Fruits</h1>
       </div>
     </div>
   );
