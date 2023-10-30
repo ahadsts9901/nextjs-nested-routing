@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./components/nav";
 import { Apple } from "react-bootstrap-icons";
 
-const fruits = () => {
+const home = () => {
   return (
     <div className="main">
       <Nav />
@@ -15,4 +15,4 @@ const fruits = () => {
   );
 };
 
-export default fruits;
+export default home;

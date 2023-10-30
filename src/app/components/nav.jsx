@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import "./nav.css";
-import { Cookie, Amd, Egg, Apple, DropletFill, List, XLg } from "react-bootstrap-icons";
+import { Amd, Egg, Apple, DropletFill, List, XLg, BasketFill } from "react-bootstrap-icons";
 import Link from "next/link";
 
 const Nav = () => {
@@ -39,13 +39,13 @@ const Nav = () => {
 
           <Link href="/vegetables">
             <li>
-              <DropletFill /> Vegetables
+              <DropletFill /> Vegies
             </li>
           </Link>
 
           <Link href="/grains">
             <li>
-              <Cookie /> Grains
+              <BasketFill /> Grains
             </li>
           </Link>
         </nav>
@@ -77,13 +77,13 @@ const Nav = () => {
 
         <Link href="/vegetables">
           <li>
-            <DropletFill /> Vegetables
+            <DropletFill /> Vegies
           </li>
         </Link>
 
         <Link href="/grains">
           <li>
-            <Cookie /> Grains
+            <BasketFill /> Grains
           </li>
         </Link>
       </div>
